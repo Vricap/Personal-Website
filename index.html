@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" href="Vricap-favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vricap | Personal Website</title>
+    <script defer src="script.js"></script>
+    <link href="style.css" rel="stylesheet" />
+    <link href="queries.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- <div class="sticky"> -->
+    <header class="main--header">
+      <a href="#"><img class="main--logo" src="Vricap-logo.png" /></a>
+      <!-- <div class="open"> -->
+      <nav class="main--nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#">Home</a></li>
+          <li><a class="main-nav-link" href="#about">About</a></li>
+          <li><a class="main-nav-link" href="#project">Project</a></li>
+          <li><a class="main-nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- </div> -->
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero-section">
+        <div class="hero-box container">
+          <div class="hero-text">
+            <h1 class="hero-header">
+              Hi, i'm Vrica <br />
+              Gede Penggalih
+            </h1>
+            <p>I'm a student and Web Developer (kind of LOL)</p>
+            <a href="#about">About Me</a>
+          </div>
+          <div class="hero-img">
+            <img class="hero-vricap-img" src="Vricap-hero.png" />
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about-section">
+        <div class="about-box container">
+          <div class="about-img">
+            <img class="about-vricap-img" src="Vricap-about.jpg" />
+          </div>
+          <div class="about-text">
+            <h2>About Me</h2>
+            <p>
+              Vrica Gede Penggalih is my name; Indonesia is the nationality. I
+              am--as of right now--a student at University of 'Aisyiyah
+              Yogyakarta. I take Information Technology and currently at first
+              semester. 20 year old is the age. <br />
+              <br />
+              <br />
+              Apart from being a University student, my life consist of
+              constantly learning something I find interested--no matter old or
+              new. With that being said, technology and life developtment is
+              currently my favorite subject.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="hobby" class="hobby-section">
+        <div class="hobby-intro">
+          <h2>Things I Like</h2>
+          <p>Things I like doing in my free time.</p>
+        </div>
+        <div class="hobby-box container">
+          <div class="hobby-card">
+            <ion-icon class="hobby-icon" name="book"></ion-icon>
+            <h3>Reading</h3>
+            <p>
+              Reading is fun activities. Especially reading a philosophy book.
+            </p>
+          </div>
+
+          <div class="hobby-card">
+            <ion-icon class="hobby-icon" name="barbell"></ion-icon>
+            <h3>Working out</h3>
+            <p>I like to Working out. I can do 40 push-up at once now :)</p>
+          </div>
+
+          <div class="hobby-card hobby-card-info">
+            <!-- <ion-icon class="hobby-icon" name="barbell"></ion-icon> -->
+            <!-- <h3>Working out</h3> -->
+            <p>
+              ''Out of the night that covers me,<br />
+              Black as the pit from pole to pole,<br />
+              I thank whatever gods may be<br />
+              For my unconquerable soul.<br /><br />
+              In the fell clutch of circumstance<br />
+              I have not winced nor cried aloud.<br />
+              Under the bludgeonings of chance<br />
+              My head is bloody, but unbowed.<br /><br />
+              Beyond this place of wrath and tears<br />
+              Looms but the Horror of the shade,<br />
+              And yet the menace of the years<br />
+              Finds and shall find me unafraid.<br /><br />
+              It matters not how strait the gate,<br />
+              How charged with punishments the scroll,<br />
+              I am the master of my fate,<br />
+              I am the captain of my soul.''
+            </p>
+          </div>
+
+          <div class="hobby-card">
+            <ion-icon class="hobby-icon" name="code-slash"></ion-icon>
+            <h3>Program</h3>
+            <p>
+              Program or to code is a challenging. But it will pay off when it
+              finally working :)
+            </p>
+          </div>
+
+          <div class="hobby-card">
+            <ion-icon class="hobby-icon" name="game-controller"></ion-icon>
+            <h3>Gaming</h3>
+            <p>Throw away my stress out. Very helpful.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="project" class="project-section">
+        <div class="project-intro">
+          <h2>Project i've done so far!</h2>
+          <p>Here are list of project i have ever done.</p>
+        </div>
+        <div class="project-box container">
+          <div class="project-card">
+            <!-- <span class="project-card-description">My Game</span> -->
+            <a href="Pig-game/index.html" target="_blank">
+              <span class="project-card-description">Pig game</span>
+              <img class="project-card-img" src="pig-game.PNG"
+            /></a>
+          </div>
+
+          <div class="project-card">
+            <a href="Guess-my-number/index.html" target="_blank">
+              <span class="project-card-description">Guess my number!</span>
+              <img class="project-card-img" src="guess-my-number.PNG"
+            /></a>
+          </div>
+
+          <div class="project-card project-card-center">
+            <a href="Omnifood/index.html" target="_blank"
+              ><img class="project-card-img" src="omnifood.PNG"
+            /></a>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <div class="contact-intro">
+          <h2>Keep in touch!</h2>
+        </div>
+        <div class="contact-box container">
+          <form class="contact-form">
+            <div>
+              <label for="Your-name">Your Name: </label>
+              <input id="Your-name" type="text" placeholder="Vrica" required />
+            </div>
+
+            <div>
+              <label for="Your-email">Your Email: </label>
+              <input
+                id="Your-email"
+                type="email"
+                placeholder="vricagedepenggalih@gmail.com"
+                required
+              />
+            </div>
+
+            <div>
+              <!-- <label for="message">Message: </label> -->
+              <textarea
+                id="message"
+                placeholder="Your website isn't responsive, maybe you should start working on it and don't be lazy :)"
+                required
+              ></textarea>
+            </div>
+
+            <div class="contact-last-row">
+              <div>
+                <label for="who-are-you">Who are you?</label>
+                <select id="who-are-you" required>
+                  <option value="">Please one option:</option>
+                  <option value="student">Student</option>
+                  <option value="web-dev">Web developer</option>
+                  <option value="freelancer">Freelancer</option>
+                  <option value="corporation">Corporation</option>
+                  <option value="others">Others</option>
+                </select>
+              </div>
+
+              <button class="contact-btn">Send</button>
+            </div>
+          </form>
+
+          <div class="contact-info">
+            <ion-icon class="contact-icon" name="call"></ion-icon>
+            <div class="contact-info-text">
+              <h3>Phone</h3>
+              <p>+62 895 363 217 690</p>
+            </div>
+
+            <ion-icon class="contact-icon" name="navigate-circle"></ion-icon>
+            <div class="contact-info-text">
+              <h3>Address</h3>
+              <p>Sleman, Yogyakarta<br />Jawa Tengah, Indonesia</p>
+            </div>
+
+            <ion-icon class="contact-icon" name="mail"></ion-icon>
+            <div class="contact-info-text">
+              <h3>Email</h3>
+              <p>vricagedepenggalih@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-section">
+      <div class="footer-box container">
+        <div class="footer-social">
+          <a
+            href="https://www.facebook.com/vricap.vricap/"
+            target="_blank"
+            class="footer-social-link"
+            ><ion-icon
+              class="footer-social-logo"
+              name="logo-facebook"
+            ></ion-icon
+          ></a>
+
+          <a
+            href="https://www.instagram.com/vricap/"
+            target="_blank"
+            class="footer-social-link"
+            ><ion-icon
+              class="footer-social-logo"
+              name="logo-instagram"
+            ></ion-icon
+          ></a>
+
+          <a
+            href="https://twitter.com/Vricap1"
+            target="_blank"
+            class="footer-social-link"
+            ><ion-icon class="footer-social-logo" name="logo-twitter"></ion-icon
+          ></a>
+
+          <a
+            href="https://www.youtube.com/channel/UCeA4aMVp2boy2vX06VwNEFQ"
+            target="_blank"
+            class="footer-social-link"
+            ><ion-icon class="footer-social-logo" name="logo-youtube"></ion-icon
+          ></a>
+        </div>
+        <p>Copyright © 2023 by Vricap. All right reserved.</p>
+      </div>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script type="text/javascript">
+      function zoom() {
+        document.body.style.zoom = "80%";
+      }
+    </script>
+
+    <body onload="zoom()" />
+  </body>
+</html>
