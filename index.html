@@ -14,13 +14,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vricap | Personal Website</title>
     <script defer src="script.js"></script>
-    <link href="style.css" rel="stylesheet" />
-    <link href="queries.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/queries.css" rel="stylesheet" />
   </head>
   <body>
     <!-- <div class="sticky"> -->
     <header class="main--header">
-      <a href="#"><img class="main--logo" src="Vricap-logo.png" /></a>
+      <a href="#"><img class="main--logo" src="img/Vricap-logo.png" /></a>
       <!-- <div class="open"> -->
       <nav class="main--nav">
         <ul class="main-nav-list">
@@ -47,10 +47,20 @@
               Gede Penggalih
             </h1>
             <p>I'm a student and Web Developer (kind of LOL)</p>
-            <a href="#about">About Me</a>
+            <div class="hero-short-link">
+              <a href="#about">About Me</a>
+              <a
+                id="hero-github"
+                class="footer-social-link"
+                href="https://github.com/Vricap"
+                target="_blank"
+                class="footer-social-link"
+                ><ion-icon id="github" name="logo-github"></ion-icon
+              ></a>
+            </div>
           </div>
           <div class="hero-img">
-            <img class="hero-vricap-img" src="Vricap-hero.png" />
+            <img class="hero-vricap-img" src="img/Vricap-hero.png" />
           </div>
         </div>
       </section>
@@ -58,14 +68,14 @@
       <section id="about" class="about-section">
         <div class="about-box container">
           <div class="about-img">
-            <img class="about-vricap-img" src="Vricap-about.jpg" />
+            <img class="about-vricap-img" src="img/Vricap-about.jpg" />
           </div>
           <div class="about-text">
             <h2>About Me</h2>
             <p>
               Vrica Gede Penggalih is my name; Indonesia is the nationality. I
-              am--as of right now--studying at University. I take Information Technology and currently at second
-              semester. <br />
+              am--as of right now--studying at University. I take Information
+              Technology and currently at third semester. <br />
               <br />
               <br />
               Apart from being a University student, my life consist of
@@ -142,28 +152,34 @@
           <h2>Project i've done so far!</h2>
           <p>Here are list of project i have ever done.</p>
         </div>
-        <div class="project-box container">
-          <div class="project-card">
-            <!-- <span class="project-card-description">My Game</span> -->
-            <a href="Pig-game/index.html" target="_blank">
+        <p style="text-align: center; font-size: 2rem">
+          I'm <em>not</em> gonna bother anymore putting all of my project here.
+          Visit my
+          <a target="_blank" href="https://www.github.com/Vricap">Github </a
+          >instead.
+        </p>
+        <!-- <div class="project-box container">
+          <div class="project-card"> -->
+        <!-- <span class="project-card-description">My Game</span> -->
+        <!-- <a href="Pig-game/index.html" target="_blank">
               <span class="project-card-description">Pig game</span>
-              <img class="project-card-img" src="pig-game.PNG"
+              <img class="project-card-img" src="img/pig-game.PNG"
             /></a>
           </div>
 
           <div class="project-card">
             <a href="Guess-my-number/index.html" target="_blank">
               <span class="project-card-description">Guess my number!</span>
-              <img class="project-card-img" src="guess-my-number.PNG"
+              <img class="project-card-img" src="img/guess-my-number.PNG"
             /></a>
           </div>
 
           <div class="project-card project-card-center">
             <a href="Omnifood/index.html" target="_blank"
-              ><img class="project-card-img" src="omnifood.PNG"
+              ><img class="project-card-img" src="img/omnifood.PNG"
             /></a>
           </div>
-        </div>
+        </div> -->
       </section>
 
       <section id="contact" class="contact-section">
@@ -270,16 +286,18 @@
             href="https://www.linkedin.com/in/vrica-gede-penggalih-266277260/"
             target="_blank"
             class="footer-social-link"
-            ><ion-icon class="footer-social-logo" name="logo-linkedin"></ion-icon
+            ><ion-icon
+              class="footer-social-logo"
+              name="logo-linkedin"
+            ></ion-icon
           ></a>
-         
+
           <a
             href="https://github.com/Vricap"
             target="_blank"
             class="footer-social-link"
             ><ion-icon class="footer-social-logo" name="logo-github"></ion-icon
           ></a>
-          
         </div>
         <p>Copyright © 2023 by Vricap. All right reserved.</p>
       </div>
